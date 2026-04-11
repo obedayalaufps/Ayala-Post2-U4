@@ -43,7 +43,7 @@ Desde la terminal de comandos (CMD) en el directorio del proyecto, ejecute los s
 ### Paso 1: Ensamblado
 
 ```bash
-nasm -f obj programa2.asm -o programa2.obj
+nasm -f obj programa2.asm -o programa2.obj -l programa2.lst
 ```
 
 ### Paso 2: Enlazado
